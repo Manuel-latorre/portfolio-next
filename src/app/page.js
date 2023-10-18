@@ -1,3 +1,6 @@
+import Mobile from "@/components/Proyectos/Mobile/Mobile";
+import Proyectos from "@/components/Proyectos/Proyectos";
+import Sobremi from "@/components/Sobremi/Sobremi";
 
 
 export default function Home() {
@@ -6,7 +9,9 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Hola</h1>
+      <Sobremi/>
+      <Proyectos/>
+      <Mobile/>
     </main>
   )
 }

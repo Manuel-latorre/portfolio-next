@@ -1,0 +1,24 @@
+
+  
+
+  .mobile_container{
+    display: none;
+  }
+
+  @media(max-width:1383px){
+    .mobile_container{
+      display: block;
+        width: 70% ;
+        margin: auto;
+      }
+    }
+
+
+  @media(max-width:1000px){
+    .mobile_container{
+      display: block;
+        width: 90% ;
+        margin: auto;
+      }
+    
+  }
