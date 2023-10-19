@@ -74,6 +74,13 @@
     animation: gradient 8s ease-in-out infinite;
 }
 
+.titleSec{
+    text-align:center;
+    font-size:40px;
+    margin-top: 7%; 
+    margin-bottom:5%;
+}
+
 @keyframes gradient {
     0%{
         background-position: 0% 50%;
@@ -93,6 +100,12 @@
     }
     .proyectos{
         display: none;
+    }
+}
+
+@media(max-width: 714px){
+    .titleSec{
+        font-size: 22px;
     }
 }
 
