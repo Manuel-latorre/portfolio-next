@@ -74,7 +74,7 @@
                      <span></span>
                      Certificados
                  </a>
-                 <a className='btnNav' href="/contacto">
+                 <a className='btnNav' href="/#contacto">
                      <span></span>
                      <span></span>
                      <span></span>

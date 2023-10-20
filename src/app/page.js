@@ -4,6 +4,7 @@ import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
 import Mobile from "@/components/Proyectos/Mobile/Mobile";
 import Proyectos from "@/components/Proyectos/Proyectos";
+import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 import Sobremi from "@/components/Sobremi/Sobremi";
 import Tecnologias from "@/components/Tecnologias/Tecnologias";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Certificados/>
       <CertificadosMobile/>
       <Contacto/>
+      <ScrollToTop/>
       <Footer/>
     </main>
   )

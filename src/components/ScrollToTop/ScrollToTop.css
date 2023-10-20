@@ -1,0 +1,10 @@
+.arrow{
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+    .arrow{
+        width: 40px;
+    }
+}
+
