@@ -273,4 +273,8 @@
     .btnContactame{
         width: 90%;
     }
+    .sobreMi_container{
+        width: 95%;
+        padding:15px;
+    }
 }

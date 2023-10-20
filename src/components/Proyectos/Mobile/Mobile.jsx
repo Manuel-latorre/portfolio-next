@@ -19,8 +19,7 @@ import Gt from '../Gt';
 import TicTacToe from '../TicTacToe';
 import Taski from '../Taski';
 import GifApp from '../GifApp';
-import Weather from '../Weather';
-import { color } from 'framer-motion';
+
 
 export default function Mobile() {
   return (

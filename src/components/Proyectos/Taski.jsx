@@ -61,7 +61,7 @@ export default function Taski() {
         </div>
       
       <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
-        <ModalContent>
+        <ModalContent style={{zIndex:9999}}>
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">Taski</ModalHeader>

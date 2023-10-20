@@ -1,0 +1,79 @@
+.titleCer{
+    text-align:center;
+    font-size:40px;
+    margin-top: 7%; 
+    margin-bottom:5%;
+}
+
+.cards_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding:20px;
+}
+
+.card{
+    margin: 50px;
+    background:linear-gradient(135deg,rgba(0, 255, 128, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    border-radius: 20px;
+    
+}
+
+.imageCard{
+    width: 400px;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button{
+    font-weight: bolder;
+}
+
+.mobile_container{
+    display: none;
+  }
+
+
+    @media(max-width: 1163px){
+        .cards_container{
+            display: none;
+        }
+        .mobile_container{
+            display: block;
+              width: 400px;
+              margin: auto;
+            }
+    }
+
+
+
+@media(max-width: 868px){
+    
+}   
+
+
+
+

@@ -60,8 +60,8 @@ export default function Gt() {
       </Dropdown> 
           </div>
         
-        <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
-          <ModalContent>
+        <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose} >
+          <ModalContent style={{zIndex:9999}}>
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">Generación Tech</ModalHeader>
