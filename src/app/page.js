@@ -1,5 +1,7 @@
 import Certificados from "@/components/Certificados/Certificados";
 import CertificadosMobile from "@/components/Certificados/Mobile/CertificadosMobile";
+import Contacto from "@/components/Contacto/Contacto";
+import Footer from "@/components/Footer/Footer";
 import Mobile from "@/components/Proyectos/Mobile/Mobile";
 import Proyectos from "@/components/Proyectos/Proyectos";
 import Sobremi from "@/components/Sobremi/Sobremi";
@@ -18,6 +20,8 @@ export default function Home() {
       <Tecnologias/>
       <Certificados/>
       <CertificadosMobile/>
+      <Contacto/>
+      <Footer/>
     </main>
   )
 }

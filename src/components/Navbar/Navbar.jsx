@@ -67,7 +67,7 @@
                      <span></span>
                      Tecnologias
                  </a>
-                 <a className='btnNav' href="/certificados">
+                 <a className='btnNav' href="/#certificados">
                      <span></span>
                      <span></span>
                      <span></span>

@@ -32,7 +32,7 @@ export default function CertificadosMobile() {
 
 
   return (
-    <div className={style.mobile_container}>
+    <div id='certificados' className={style.mobile_container}>
       <Swiper
         effect={'flip'}
         grabCursor={true}

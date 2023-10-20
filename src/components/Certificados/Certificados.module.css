@@ -31,7 +31,7 @@
 }
 
 .imageCard{
-    width: 400px;
+    width: 380px;
     background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -63,16 +63,18 @@
         }
         .mobile_container{
             display: block;
-              width: 400px;
+              width: 380px;
               margin: auto;
             }
     }
 
 
 
-@media(max-width: 868px){
-    
-}   
+    @media(max-width:714px){
+        .titleCer{
+            font-size: 22px;
+        }
+      }
 
 
 

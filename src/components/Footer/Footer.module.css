@@ -1,0 +1,147 @@
+.footer{
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    
+}
+
+.hr{
+    filter: invert();
+}
+
+.btnFooter{
+    margin: 15px;
+}
+
+.sectionMedia{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btnMedia{
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.boxMedia{
+    position: relative;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    background: #19ffa3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.boxMedia::after{
+    content: '';
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    background-image: conic-gradient(transparent, transparent, transparent, #4b19ff);
+    animation: animateMedia 4s linear infinite;
+    animation-delay: -2s;
+}
+
+.boxMedia span{
+    position: absolute;
+    inset: 5px;
+    background: #0c1022;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.boxMedia::before{
+    content: '';
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    background-image: conic-gradient(transparent, transparent, transparent, #193bff);
+    animation: animateMedia 4s linear infinite;
+}
+
+@keyframes animateMedia{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.logo{
+    width: 200px;
+}
+
+.sectionNav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btnMedia_container{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+@media(max-width:865px){
+    .sectionMedia{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:709px){
+    .sectionNav{
+        display: none;
+    }
+    .hr{
+        display: none;
+    }
+}
+
+@media(max-width:485px){
+    .btnMedia{
+        width: 50px;
+        height: 50px;
+    }
+    .boxMedia{
+        width: 70px;
+        height: 70px;
+    }
+    .boxMedia::after{
+        width: 270px;
+        height: 270px;
+    }
+    .boxMedia::before{
+        width: 270px;
+        height: 270px;
+    }
+    .btnMedia_container{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo_container{
+        display: none;
+    }
+}

@@ -14,13 +14,9 @@ export default function Sobremi(){
                 <h3 className={style.h3}>Desarrollador Fullstack</h3>
                 <p className={style.p}>Soy un desarrollador especializado en el diseño y desarrollo de sitios web y aplicaciones. Mi experiencia abarca tanto el Frontend como el Backend, lo que me permite ofrecer soluciones completas. En la creación de proyectos, prefiero trabajar con el stack PERN (PostgreSQL, Express, React y Node.js) como base tecnológica.</p>
                 <div className={style.sectionMedia}>
-                  {/* <div className='boxMedia'>
-                    <span></span>
-                    <a className='btnMedia' href={cv} download={'Manuel-Latorre-Fullstack'}>CV</a>
-                  </div> */}
                   <div className={style.boxMedia}>
                     <span></span>
-                    <a className={style.btnMedia}>CV</a>
+                    <a href='/Manuel-Latorre-fullstack.pdf' download={'Manuel-Latorre-fullstack'} className={style.btnMedia}>CV</a>
                   </div>
                   <div className={style.boxMedia}>
                     <span></span>

@@ -19,7 +19,7 @@ export default function Certificados () {
 
 
     return (
-        <div>
+        <div id="certificados">
             <h2 className={style.titleCer}>Certificados</h2>
             <div className={style.cards_container}>
                 <div className={style.card}>
