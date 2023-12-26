@@ -6,6 +6,7 @@ import Gt from './Gt';
 import TicTacToe from './TicTacToe';
 import Taski from './Taski';
 import GifApp from './GifApp';
+import Api from './Api';
 
 
 
@@ -18,6 +19,7 @@ export default function Proyectos() {
             <h2 className={style.titleSec}>Mis Proyectos</h2>
             <div id='proyectos' className={style.proyectos}>
                 <Gt/>
+                <Api/>
                 <TicTacToe/>
                 <Taski/>
                 <GifApp/>

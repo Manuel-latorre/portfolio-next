@@ -13,6 +13,7 @@ import css from './assets/css.png'
 import todolist from './assets/todolist.png'
 import style from './Proyectos.module.css'
 import html from './assets/html.png'
+import gt from './assets/gttt.png'
 
 
 
@@ -32,8 +33,8 @@ export default function Taski() {
 
     return(
         <div className={style.gt_container}>
-      <p className={style.title}>Taski</p>
-        <Image className={style.gt} src={todolist} alt='oo'/>
+      <p className={style.title}>Generación Tech</p>
+        <Image className={style.gt} src={gt} alt='oo'/>
         <div style={{display:'flex', justifyContent:'center', gap:20,  padding:10, paddingBottom:15}}>
             {backdrops.map((b) => (
             <Button  
@@ -54,8 +55,8 @@ export default function Taski() {
         </Button>
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions">
-        <DropdownItem className={style.dropItem} href='https://taski-six.vercel.app/' as={Link} target='_blank'> <LanguageIcon/> Sitio</DropdownItem>
-        <DropdownItem className={style.dropItem} href='https://github.com/Manuel-latorre/Taski' as={Link} target='_blank'> <GitHubIcon/> Repositorio</DropdownItem>
+        <DropdownItem className={style.dropItem} href='https://www.generaciontech.com.ar/' as={Link} target='_blank'> <LanguageIcon/> Sitio</DropdownItem>
+        <DropdownItem className={style.dropItem} href='https://github.com/Manuel-latorre/GT-Nextjs-GT' as={Link} target='_blank'> <GitHubIcon/> Repositorio</DropdownItem>
       </DropdownMenu>
     </Dropdown> 
         </div>
@@ -64,12 +65,12 @@ export default function Taski() {
         <ModalContent style={{zIndex:9999}}>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Taski</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Generación Tech</ModalHeader>
               <ModalBody>
                 <p> 
-                    Taski se basa en un sitio que cuenta con un CRUD(Crear, Leer, Actualizar y Eliminar) completo. En este sitio se puede llevar a acabo la creacion de tareas personales.
-                    Utilicé TypeScript para garantizar un código más limpio y menos propenso a errores.
-                    La elección de Next.js proporciona una experiencia de usuario más rápida al aprovechar la renderización del lado del servidor (SSR) y la generación de páginas estáticas (SSG). Esto garantiza que la aplicación sea eficiente y rápida de cargar.
+                    Generación Tech se trata de una SPA(Single page application), que ofrece servicios de desarrollo web, marketing digital y comercio electronico.
+                    Cuenta con un diseño interactivo el cual lo diseñe para la compañia, tambien cuenta con un formulario de contacto que este fue manejado a traves del framework Email js.
+                    Para este sitio utilicé tecnologias como Next Js, Typescript y Next UI para la interfaz de usuario.
                 </p>
                 <p style={{fontWeight:'bold', fontSize:18}}>Tecnologias aplicadas</p>
                 <ul>
@@ -108,8 +109,8 @@ export default function Taski() {
         </Button>
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions">
-        <DropdownItem className={style.dropItem} href='https://taski-six.vercel.app/' as={Link} target='_blank'> <LanguageIcon/> Sitio</DropdownItem>
-        <DropdownItem className={style.dropItem} href='https://github.com/Manuel-latorre/Taski' as={Link} target='_blank'> <GitHubIcon/> Repositorio</DropdownItem>
+        <DropdownItem className={style.dropItem} href='https://www.generaciontech.com.ar/' as={Link} target='_blank'> <LanguageIcon/> Sitio</DropdownItem>
+        <DropdownItem className={style.dropItem} href='https://github.com/Manuel-latorre/GT-Nextjs-GT' as={Link} target='_blank'> <GitHubIcon/> Repositorio</DropdownItem>
       </DropdownMenu>
     </Dropdown> 
               </ModalFooter>

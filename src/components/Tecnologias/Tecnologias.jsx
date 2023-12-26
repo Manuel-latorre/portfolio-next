@@ -15,7 +15,7 @@ import redux from './assets/redux.svg'
 import angular from './assets/angular.svg'
 import postgres from './assets/postgres.svg'
 import Image from 'next/image'
-
+import mongodb from './assets/mongodb.svg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -119,15 +119,6 @@ const Tecnologias = () => {
 
                     <SwiperSlide className={style.swiper_slide}>
                         <div className={style.tecnologia}>
-                            <div className={style.angularCard}>
-                                <p className={style.angular}>Angular</p>
-                                <Image className={style.imageCard} src={angular}/>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className={style.swiper_slide}>
-                        <div className={style.tecnologia}>
                             <div className={style.reduxCard}>
                                 <p className={style.redux}>Redux</p>
                                 <Image className={style.imageCard} src={redux}/>
@@ -140,6 +131,15 @@ const Tecnologias = () => {
                             <div className={style.nodeCard}>
                                 <p className={style.node}>Node Js</p>
                                 <Image className={style.imageCard} src={node}/>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide className={style.swiper_slide}>
+                        <div className={style.tecnologia}>
+                            <div className={style.nodeCard}>
+                                <p className={style.node}>MongoDB</p>
+                                <Image className={style.imageCardMDB} src={mongodb}/>
                             </div>
                         </div>
                     </SwiperSlide>

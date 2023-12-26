@@ -2,6 +2,7 @@ import Certificados from "@/components/Certificados/Certificados";
 import CertificadosMobile from "@/components/Certificados/Mobile/CertificadosMobile";
 import Contacto from "@/components/Contacto/Contacto";
 import Footer from "@/components/Footer/Footer";
+import Api from "@/components/Proyectos/Api";
 import Mobile from "@/components/Proyectos/Mobile/Mobile";
 import Proyectos from "@/components/Proyectos/Proyectos";
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";

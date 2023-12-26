@@ -308,6 +308,11 @@
     animation: gradient 8s ease-in-out infinite;
 }
 
+.imageCardMDB{
+    margin: auto;
+    width: 90px;
+}
+
 
 
 @keyframes gradient {
@@ -367,6 +372,12 @@
 
 .imageCard{
     margin: auto;
+}
+
+
+.imageCardMDB{
+    
+    width: 70px;
 }
 
 .titleSec{

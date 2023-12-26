@@ -19,6 +19,7 @@ import Gt from '../Gt';
 import TicTacToe from '../TicTacToe';
 import Taski from '../Taski';
 import GifApp from '../GifApp';
+import Api from '../Api';
 
 
 export default function Mobile() {
@@ -34,6 +35,9 @@ export default function Mobile() {
       >
         <SwiperSlide>
             <Gt/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <Api/>
         </SwiperSlide>
         <SwiperSlide>
           <TicTacToe/>
